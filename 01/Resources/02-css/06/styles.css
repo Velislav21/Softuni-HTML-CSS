@@ -1,0 +1,17 @@
+section {
+    margin-bottom: 10px;
+}
+.navigation {
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    gap: 30px
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+.box {
+    border: 1px solid gray;
+    padding-left: 20px;
+}
