@@ -1,0 +1,15 @@
+div > p {
+    color: rgb(39, 39, 168);
+}
+p {
+    color: rgb(39, 39, 168);
+}
+p > span{
+    color: red;
+}
+
+.sibling{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
