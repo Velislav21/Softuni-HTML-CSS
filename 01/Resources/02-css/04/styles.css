@@ -1,0 +1,15 @@
+.img {
+    border: 10px solid red;
+}
+span {
+    color: brown;
+}
+.service {
+    background-color: #b0dce4
+}
+.first-li {
+    font-weight: bold;
+}
+.last-li {
+    font-style: italic;
+}

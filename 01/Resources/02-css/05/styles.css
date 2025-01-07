@@ -1,0 +1,21 @@
+p {
+    color: #826464;
+}
+.light-red {
+    background-color: #f08080;
+}
+.li-2 {
+    color: red;
+}
+.nested-ul > li {
+    list-style: none;
+}
+.nested-ul > li > a {
+    text-decoration: none;
+}
+.blue {
+    color: blue
+}
+.green {
+    color: green;
+}
