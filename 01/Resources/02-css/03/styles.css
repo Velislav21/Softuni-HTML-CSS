@@ -1,0 +1,21 @@
+.highlighted {
+    color: rgb(53, 135, 229);
+    font-size: 22px;
+}
+.special-content {
+    background-color: orange;
+}
+.item-1 {
+    color: rgb(56, 212, 212)
+}
+.item-3 {
+    color: red;
+    font-style: italic;
+}
+.links {
+    line-height: 40px;
+}
+.link-2 {
+    color: orange;
+    text-decoration: underline;
+}
