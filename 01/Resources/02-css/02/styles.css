@@ -1,4 +1,4 @@
-div > p {
+div p {
     color: rgb(39, 39, 168);
 }
 p {
@@ -6,6 +6,10 @@ p {
 }
 p > span{
     color: red;
+}
+
+ul > li {
+    list-style-type: square;
 }
 
 .sibling{
