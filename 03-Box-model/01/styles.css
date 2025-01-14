@@ -1,0 +1,19 @@
+section {
+    border: 2px solid gray;
+    margin-bottom: 2em;
+    padding: 1em 2em;
+}
+p {
+    border: 1px solid gray;
+    padding: 1em;
+}
+
+p.block {
+    display: block;
+}
+p.inline {
+    display: inline;
+}
+p.inline-block {
+    display: inline-block;
+}
