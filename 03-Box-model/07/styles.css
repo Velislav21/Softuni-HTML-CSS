@@ -1,0 +1,16 @@
+div {
+  border: 5px solid black;
+  margin-bottom: 1em;
+  background-color: rgb(212, 212, 212);
+}
+
+.content {
+  box-sizing: content-box;
+  width: 300px;
+  padding: 20px;
+}
+.border {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 20px;
+}
