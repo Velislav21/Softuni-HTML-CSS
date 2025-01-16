@@ -2,6 +2,7 @@ div {
     border: 2px solid black;
     margin-bottom: 1em;
     padding: 1em;
+    width: 400px;
 }
 .family {
     font-family: 'Arial', 'sans-serif';
