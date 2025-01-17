@@ -1,0 +1,17 @@
+div {
+  padding: 2em;
+  border: 1px dashed #333;
+}
+.margin {
+  background-color: orange;
+}
+.border {
+  background-color: beige;
+}
+.padding {
+  background-color: lawngreen;
+}
+.content {
+  background-color: lightblue;
+  text-align: center;
+}
