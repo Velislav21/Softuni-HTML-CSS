@@ -1,0 +1,25 @@
+body {
+  background-color: #eee;
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid blue;
+  width: 15em;
+  padding: 0.5em;
+}
+.item {
+  border: 1px solid gray;
+  padding: 0.5em;
+  background-color: #ed94b8;
+}
+.flex-container.row-rev {
+  flex-direction: row-reverse;
+}
+
+.flex-container.column{
+  flex-direction: column;
+}
+.flex-container.column-rev{
+  flex-direction: column-reverse;
+}
