@@ -4,6 +4,7 @@ body {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   border: 2px solid blue;
   width: 400px;
   height: 200px;
@@ -17,24 +18,19 @@ body {
 
 .flex-container.ac-flex-start {
   align-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .flex-container.ac-center {
   align-content: center;
-  flex-wrap: wrap;
 }
 .flex-container.ac-flex-end {
   align-content: flex-end;
-  flex-wrap: wrap;
 }
 .flex-container.ac-space-between {
   align-content: space-between;
-  flex-wrap: wrap;
 }
 .flex-container.ac-space-around {
   align-content: space-around;
-  flex-wrap: wrap;
 }
 
 
