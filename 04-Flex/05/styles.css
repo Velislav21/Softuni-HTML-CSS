@@ -1,0 +1,35 @@
+body {
+  background-color: #eee;
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid blue;
+  width: 400px;
+  height: 200px;
+  padding: 1em;
+}
+.item {
+  border: 2px solid gray;
+  padding: 20px;
+  background-color: #ed94b8;
+}
+
+
+.flex-container.ai-stretch {
+  align-items: stretch;
+}
+
+.flex-container.ai-flex-start {
+  align-items: flex-start;
+}
+.flex-container.ai-center {
+  align-items: center;
+}
+.flex-container.ai-flex-end {
+  align-items: flex-end;
+}
+.flex-container.ai-baseline {
+  align-items: baseline;
+}
+
