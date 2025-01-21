@@ -1,0 +1,34 @@
+body {
+  background-color: #eee;
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid blue;
+  width: 400px;
+  padding: 1em;
+}
+.item {
+  border: 2px solid gray;
+  padding: 20px;
+  background-color: #ed94b8;
+}
+
+.flex-container.jc-flex-start {
+  justify-content: flex-start;
+}
+.flex-container.jc-center {
+  justify-content: center;
+}
+.flex-container.jc-flex-end {
+  justify-content: end;
+}
+.flex-container.jc-space-between {
+  justify-content: space-between;
+}
+.flex-container.jc-space-around {
+  justify-content: space-around;
+}
+.flex-container.jc-space-evenly {
+  justify-content: space-evenly;
+}
