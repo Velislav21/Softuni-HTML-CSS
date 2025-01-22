@@ -1,0 +1,29 @@
+body {
+  background-color: #eee;
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid blue;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 200px;
+  padding: 1em;
+}
+.item {
+  align-self: flex-start;
+  border: 2px solid gray;
+  padding: 20px;
+  background-color: #ed94b8;
+}
+
+.item.as-center {
+  align-self: center;
+}
+.item.as-flex-end {
+  align-self: flex-end;
+}
+.item.as-baseline {
+  align-self: baseline;
+}
