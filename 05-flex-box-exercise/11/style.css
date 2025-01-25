@@ -1,0 +1,43 @@
+article {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    box-shadow: 0 0 3em rgb(0,0,0, 0.2);
+    background-color: white;
+    padding: 2em;
+}
+
+h2 {
+    color: gray;
+}
+
+h1 {
+    font-size: 2em;
+}
+p {
+    max-width: 90ch;
+    margin-bottom: 2em;
+}
+button {
+    display: inline;
+    padding: 0.5em;
+}
+.purple {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+}
+.default {
+    margin-left: 0.5em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: rgb(197, 197, 197);
+}
+.box {
+    margin-left: 1em;
+    width: 60%;
+    background-color: rgb(242, 242, 242);
+    border: 2px solid #949494;
+    border-radius: 0.3em;
+}
