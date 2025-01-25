@@ -1,0 +1,27 @@
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 60ch;
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.4em rgb(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+li {
+    margin-left: 2em;
+}
