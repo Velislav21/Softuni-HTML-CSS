@@ -1,5 +1,6 @@
 .nav {
-    background-color: #ffffff;
+    background-color: #d8d8d8;
+    border: 1px solid gray;
     border-radius: 0.3em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
     padding: 2em;
@@ -12,9 +13,11 @@ li {
 }
 
 li a {
-    color: lightsalmon;
-    text-decoration: none;
+    background-color: #eee;
     border: 1px solid #999;
+    color: rgb(245, 128, 82);
+    font-weight: bold;
+    text-decoration: none;
     border-radius: 0.5em;
     padding: 1em 1.5em;
 }
