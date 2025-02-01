@@ -1,13 +1,40 @@
 body {
+    padding: 2vw;
+    background-color: #eee;
+    min-height: 100dvh;
+}
+
+html {
+    font: 14px/1.5 Verdana, sans-serif;
+}
+body,
+input,
+textarea,
+table {
+    font: inherit;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
     padding: 0;
     background-color: #fff;
-
 }
 /* Navigation bar */
 .site-header {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0 1em 0 rgb(0,0,0, 0.2);
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
     padding: 1em 5em;
 }
 .site-header ul {
@@ -31,7 +58,106 @@ body {
 .site-header li.login-btn a {
     color: #fff;
 }
-.diplomas {
+
+/* Main */
+.flex-container {
     display: flex;
-    margin: 1em 5em;
+    justify-content: space-between;
+    margin: 3em 5em;
+}
+
+/* Diploma section */
+.section-title {
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.section-title.diploma-title {
+    color: #54546d;
+}
+p.section-description {
+    /* margin: 1em 0em; */
+    max-width: 95ch;
+    margin-bottom: 1.5em;
+}
+.diplomas-img-container {
+    margin-right: 2em;
+}
+div.clarifications > p {
+    color: #adadad;
+    font-style: italic;
+}
+
+/* Certificate Section */
+
+section.flex-container.certificates {
+    margin: 3em 0em;
+    padding: 5em 5em;
+    background-color: #1d1640;
+    color: #fff;
+}
+.certificate-img-container {
+    position: relative;
+}
+.certificate-img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 20px;
+    left: -350px;
+    right: -80px;
+}
+/* Career section */
+.career-center {
+    justify-content: stretch;
+    gap: 3em;
+}
+.careers-btn {
+    background-color: #fff;
+    border: 1px solid #bb6bc8;
+    color: #bb6bc8;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+h3.section-title.career-center {
+    color: #54546d;
+}
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    background-color: #2c2c3a;
+    gap: 10em;
+}
+footer > section > ul {
+    list-style-type: none;
+    line-height: 2;
+}
+footer > section > h3 {
+    color: #8f57b9;
+    margin-bottom: 1em;
+}
+footer > section > ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+h3.title-initiatives {
+    margin-top: 1em;
+}
+footer p {
+    color: #fff;
+}
+
+footer p:first-of-type {
+    font-size: 1.2em;
+}
+.icons-container {
+    display: flex;
+    gap: 2em;
+}
+.icon {
+    color: #fff;
+    font-size: 2.5em;
 }

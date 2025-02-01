@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../styles/_styles.css" />
+        <!-- <link rel="stylesheet" href="../styles/_styles.css" /> -->
         <link rel="stylesheet" href="landing-page.css" />
         <title>Document</title>
     </head>
@@ -27,10 +27,12 @@
             </nav>
         </header>
         <main>
-            <section class="diplomas">
+            <section class="flex-container">
                 <div class="diplomas-content">
-                    <h3>Диплома и сертификати</h3>
-                    <p>
+                    <h3 class="section-title diploma-title">
+                        Диплома и сертификати
+                    </h3>
+                    <p class="section-description">
                         След края на всеки завършен курс, курсистите получават
                         автентичен сертификат на SoftUni Creative при оценка
                         равна на или по-голяма от 5.00. Пропорционално на
@@ -53,10 +55,117 @@
                         </p>
                     </div>
                 </div>
-                <div>
+                <div class="diplomas-img-container">
                     <img src="./images/diplomas.png" alt="" />
                 </div>
             </section>
+            <section class="flex-container certificates">
+                <div class="diplomas-container">
+                    <h3 class="section-title">
+                        Държавно признати Сертификати и Удостоверения
+                    </h3>
+                    <p class="section-description">
+                        SoftUni е лицензиран учебен център по Закона за
+                        професионалното образование и обучение. След всеки
+                        успешно преминат курс, участниците получават държавно
+                        признато „Свидетелство за професионално обучение“, както
+                        и приложение, валидно на територията на целия Европейски
+                        съюз.
+                    </p>
+                </div>
+                <div class="certificate-img-container">
+                    <img
+                        src="./images/cpe.jpg"
+                        alt=""
+                        class="certificate-img"
+                    />
+                </div>
+            </section>
+            <section class="flex-container career-center">
+                <div class="career-img-container">
+                    <img
+                        src="./images/career-center.png"
+                        alt=""
+                        class="career-img"
+                    />
+                </div>
+                <div>
+                    <h3 class="section-title career-center">
+                        Кариерно съдействие
+                    </h3>
+                    <p class="section-description">
+                        SoftUni Creative си партнира пряко с редица успешни
+                        агенции и компании с цел осигуряване на кариерен старт
+                        за млади специалисти в сферата на визуалната индустрия.
+                        Всички успешно дипломирали се курсисти, ще получат
+                        кариерно съдействие от страна на СофтУни, изразяващо се
+                        в безплатни консултации с кариерен специалист и директни
+                        препоръки за работа във водещи български и международни
+                        компании. За повече информация, можете да пишете на:
+                    </p>
+                    <button class="careers-btn">CAREERS@SOFTUNI.BG</button>
+                </div>
+            </section>
         </main>
+        <footer>
+            <section>
+                <h3>SOFTUNI CREATIVE</h3>
+                <ul>
+                    <li><a href=""> За нас </a></li>
+                    <li><a href=""> Обучения</a></li>
+                    <li><a href=""> Сертификати </a></li>
+                    <li><a href=""> Преподаватели</a></li>
+                    <li><a href="">Такси</a></li>
+                    <li><a href="">Партньори</a></li>
+                    <li><a href="">Общи условия</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>ВСИЧКИ ОБУЧЕНИЯ</h3>
+                <ul>
+                    <li><a href="">Курсове</a></li>
+                    <li><a href="">Семинари</a></li>
+                </ul>
+                <h3 class="title-initiatives">ВСИЧКИ ИНИЦИАТИВИ</h3>
+                <ul>
+                    <li><a href="">Software University</a></li>
+                    <li><a href="">Softuni Digital</a></li>
+                    <li><a href="">Softuni Kids</a></li>
+                    <li><a href="">Softuni Svetlina</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>НАШИТЕ ПАРТНЬОРИ</h3>
+                <ul>
+                    <li><a href="">Дизайнът на нещата</a></li>
+                    <li><a href="">Pixel House</a></li>
+                    <li><a href="">Apihawk</a></li>
+                    <li><a href=""> Infragistics</a></li>
+                    <li><a href="">Fontfabric</a></li>
+                    <li><a href="">Coca-Cola HBC Bulgaria</a></li>
+                    <li><a href="">Areté Creative Agency </a></li>
+                    <li><a href="">3DCG Arts</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="icons-container">
+                    <li><ion-icon class="icon" name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon class="icon" name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon class="icon" name="logo-google"></ion-icon></li>
+                    <li><ion-icon class="icon" name="logo-youtube"></ion-icon></li>
+                    <li><ion-icon class="icon" name="logo-instagram"></ion-icon></li>
+                </ul>
+                <p>&copy; 2017-2020 - SoftUni Creative.</p>
+                <p>All Rights Reserved.</p>
+            </section>
+        </footer>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>
