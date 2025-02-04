@@ -1,0 +1,56 @@
+.site {
+    display: flex;
+    justify-content: stretch;
+    padding: 1em 5em;
+    gap: 3em;
+    background-color: #fff;
+    box-shadow: 0 1.5em 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.site header {
+    border-left: 5px solid #88bc44;
+    padding: 5em 3em;
+    background-color: #f8f4f4;
+}
+header {
+    position: relative;
+}
+.site a {
+    position: absolute;
+    top: 40px;
+    color: #88bc44;
+    text-decoration: none;
+}
+.site h1 {
+    font-size: 2.5em;
+}
+
+.text { 
+    color: #a1a1a1;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+div.info {
+    background-color: #f8f4f4;
+    padding: 2em 1.5em;
+}
+div.info p {
+    color: #acb1b4;
+}
+div > div.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+div.container p {
+    padding: 0.2em 8em;
+}
+div.container p:first-of-type {
+    background-color: #88bc44;
+    color: #fff;
+}
+div.container p:last-of-type {
+    color: #88bc44;
+    background-color: #f8f4f4;
+}
