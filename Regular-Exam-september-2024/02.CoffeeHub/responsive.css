@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .home-container {
+    }
+    .home-navbar-container {
+
+    }
+    .home-link,
+    .home-link1,
+    .home-link2 {
+        font-weight: bold;
+        margin-right: 14px;
+        text-decoration: none;
+    }
+    .home-cards-container {
+        flex-direction: column;
+    }
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+    }
+    .home-heading-container {
+        width: 100%;
+    }
+    .home-features {
+        height: auto;
+    }
+}
