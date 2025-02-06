@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+html {
+    font-family: "Kode Mono";
+}
+form {
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 400px;
+    background-color: #24333c;
+    color: #fff;
+    border-radius: 0.4em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+div.input-names-container {
+    display: flex;
+    gap: 1em;
+}
+section.buttons-container {
+    display: flex;
+}
+
+form h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    color: #e3ddd6;
+}
+button {
+    width: 100%;
+    padding: 0.5em 1em;
+    border: none;
+    font-family: inherit;
+}
+button.get-started {
+    background-color: #1ab188;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+button.sign-up {
+    background-color: #1ab188;
+    color: #fff;
+}
+button.login {
+    background-color: #435359;
+    color: #758988;
+}
+
+.input-container input:required ~ label::after {
+    display: inline-block;
+    content: '*';
+    padding-left: 0.3em;
+    color: #1ab188;
+}
+.input-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.input-container label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.2em 0.3em;
+}
+.input-container input {
+    display: block;
+    background-color: transparent;
+    border: 1px solid #5e6f72;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0.2em 0.3em;
+}

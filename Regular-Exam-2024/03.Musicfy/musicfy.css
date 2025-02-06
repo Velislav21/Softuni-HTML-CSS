@@ -1,0 +1,105 @@
+.heading {
+    font-family: "Montserrat";
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header img {
+    width: 100px;
+    height: 50px;
+    aspect-ratio: 1/1;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 1em;
+    gap: 2em;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.back-ground {
+    padding: 1em 5em 8em 5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #20bc54;
+    color: #fff;
+}
+div.plans {
+    display: flex;
+    justify-content: space-evenly;
+}
+main section.plan {
+    width: 400px;
+    border: 1px solid #999;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+    padding-top: 1em;
+}
+main {
+    position: relative;
+}
+
+main section.plan ul {
+    list-style: circle;
+    line-height: 2;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    color: #606f82;
+}
+main section.plan ul li {
+    max-width: 40ch;
+}
+
+main section.plan h2 {
+    color: #859ab4;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+main section.plan button {
+    display: block;
+    border: none;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    border-radius: 1em;
+    background-color: #20bc54;
+}
+div.plans {
+    
+}
+div.options {
+    display: flex;
+    align-items: flex-end;
+    /* position: relative; */
+    margin-top: 1.5em;
+    background-color: #201414;
+    color: #fff;
+}
+div.options p {
+    position: relative;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.side-border::after {
+    content: "";
+    position: absolute;
+    left: 180px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50%;
+    background-color:#fff;
+}

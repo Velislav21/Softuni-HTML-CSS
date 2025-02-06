@@ -1,0 +1,6 @@
+html {
+    font: 14px/1.5 'Lato'
+}
+body, input, textarea, table {
+    font: inherit;
+}
