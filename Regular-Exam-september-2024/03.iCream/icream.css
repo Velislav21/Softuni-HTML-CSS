@@ -73,8 +73,11 @@ nav.main-nav ul {
 }
 section.section-main {
     position: relative;
-    background-image: url(./images/carousel-1.jpg);
-    background-size: 1920px auto;
+
+    background-image: url("./images/carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 section.section-main div {
     padding: 15em;
@@ -156,7 +159,7 @@ footer p.copyright {
     margin-top: 2em;
 }
 footer p:last-child span {
-    color:#f195b2;
+    color: #f195b2;
 }
 footer div.flex-container .logo {
     color: #64b0ce;
@@ -180,4 +183,3 @@ section.footer-info div {
 section.footer-info p {
     line-height: 1.5;
 }
-

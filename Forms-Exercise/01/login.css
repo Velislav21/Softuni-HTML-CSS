@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+form {
+    width: 100vw;
+    max-width: 25em;
+    background-color: #eee;
+    border-radius: 0.3em;
+    padding: 2em;
+}
+h2 {
+    font-size: 1.7em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+input[type="text"],
+input[type="password"]
+ {
+    display: block;
+    width: 100%;
+    padding: 0.5em 1em;
+    border: 1px solid #a8a8a8;
+}
+form label::after {
+    content: "*";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    padding-left: 0.2em;
+    width: 0.1em;
+    color: red;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+form div.field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
