@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+body {
+    font-family: "Poppins", "sans-serif";
+    padding: 0;
+}
+
+header {
+    background-color: #f195b2;
+    padding: 1em;
+}
+
+header > div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    gap: 1em;
+    color: #fff;
+}
+
+header > div span {
+    padding-left: 0.5em;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.7em;
+}
+div .logo {
+    color: #fff;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: black;
+}
+
+h1.i-cream {
+    font-size: 2.4em;
+    color: #f195b2;
+    padding: 0 0.5em;
+}
+
+h1.i-cream span {
+    color: #62c3e7;
+}
+
+nav.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 0em 5em;
+    border-radius: 2em;
+    gap: 2em;
+    background-color: #fff;
+    max-width: 900px;
+}
+
+nav.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+section.section-main {
+    position: relative;
+    background-image: url(./images/carousel-1.jpg);
+    background-size: 1920px auto;
+}
+section.section-main div {
+    padding: 15em;
+    text-align: center;
+    color: #fff;
+}
+section.section-main div h1 {
+    text-align: center;
+    font-size: 3.2em;
+}
+section.section-main button {
+    background-color: #f195b2;
+    color: #fff;
+    border: none;
+    padding: 0.5em 0.8em;
+    border-radius: 2em;
+}
+section.section-main button {
+    margin-top: 1em;
+}
+
+section.section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 4em;
+    background-color: #c8e7f8;
+    color: #5b5d5e;
+}
+div.info-container {
+    display: flex;
+    justify-content: center;
+}
+div.info-container article {
+    max-width: 27ch;
+    padding: 1em;
+}
+
+div.info-container article p {
+    font-size: 0.8em;
+}
+div.info-container article > * {
+    margin-bottom: 1em;
+}
+section.section-info img {
+    display: block;
+    height: 20em;
+    width: auto;
+    border-radius: 0.3em;
+}
+section.section-info button {
+    border: none;
+    padding: 0.3em 1.2em;
+    color: #fff;
+    border-radius: 1em;
+}
+section.section-info button.light-blue {
+    background-color: #62c3e7;
+}
+section.section-info button.light-pink {
+    background-color: #f195b2;
+}
+.mark-done {
+    color: #64b0ce;
+    margin-right: 0.5em;
+}
+div.features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+footer {
+    text-align: center;
+    padding: 5em;
+}
+footer p.copyright {
+    margin-top: 2em;
+}
+footer p:last-child span {
+    color:#f195b2;
+}
+footer div.flex-container .logo {
+    color: #64b0ce;
+    border: 2px solid #64b0ce;
+    padding: 0.7em;
+    border-radius: 50%;
+}
+footer div.flex-container {
+    gap: 0.2em;
+    margin: 1em 0;
+}
+section.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+section.footer-info div {
+    display: flex;
+    flex-direction: column;
+}
+section.footer-info p {
+    line-height: 1.5;
+}
+
