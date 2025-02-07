@@ -5,9 +5,18 @@ html {
 }
 body {
     padding: 0;
+    /* background-image: url(./images/background.jpg);
+    background-position: center -25em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+    */
 }
-header {
-    background-color: beige;
+    header {
+    /* background-color: beige; */
+    background-image: url(./images/background.jpg);
+    background-position: center -25em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
     padding-bottom: 70px;
     /* background: url(./images/background.jpg); */
 }
@@ -66,7 +75,7 @@ section.catalog {
     border-right: 5px solid #60acc1;
     box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.3);
 }
-article div + div {
+article div {
     background-color: #fff;
     padding: 20px;
     text-align: center;
@@ -84,6 +93,7 @@ article div + div p {
 section.furniture {
     display: flex;
     justify-content: space-around;
+    background-color: #fff;
     gap: 2em;
     padding: 2em;
 }
@@ -109,11 +119,11 @@ div.img-container {
     display: flex;
     justify-content: center;
     padding-bottom: 1.5em;
-    gap: 3em;
+    gap: 4em;
 }
 div.img-container img {
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: auto;
     box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.2);
 }
 section.about-us div + p {
