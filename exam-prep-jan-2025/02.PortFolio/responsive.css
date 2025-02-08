@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+  
+    nav ul {
+        display: none;
+    }
+    section.site-header > i, h1 {
+        bottom: -140px
+    }
+    .site-header > i {
+        left: 45%
+    }
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-header {
+        bottom: 0;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery-item {
+        display: block;
+        max-width: 210px;
+    }
+}
