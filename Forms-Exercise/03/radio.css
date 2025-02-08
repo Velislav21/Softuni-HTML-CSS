@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+form {
+    background-color: #fff;
+    width: 80vw;
+    max-width: 30em;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+.field {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+legend {
+    padding: 0.5em;
+    font-weight: bold;
+}
+fieldset {
+    border-color: rgb(210, 139, 139);
+    padding: 1em;
+    margin-bottom: 2em;
+}
+input {
+    display: inline-block;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+input[type="radio"] {
+    position: relative;
+    appearance: none;
+    border: 1px solid orange;
+    background-color: gold;
+    width: 2em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+input[type="radio"]::after {
+    display: block;
+    position: absolute;
+    content: "";
+    inset: 0.4em;
+    background-color: rgb(235, 79, 79);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+input[type="radio"]:checked::after {
+    opacity: 1;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: #eee;
+    width: 4em;
+    aspect-ratio: 2/1;
+    border-radius: 3em;
+
+}
+input[type="checkbox"]::after {
+    display: block;
+    position: absolute;
+    border-radius: inherit;
+    transition: opacity 0.2s ease-in;
+    content: "";
+    top: 50%;
+    left: 0.2em;
+    translate: 0  -50%;
+    width: 1.3em;
+    aspect-ratio: 1/1;
+    background-color: rgb(235, 79, 79);
+    transition: left 0.2s ease-in;
+}
+input[type="checkbox"]:checked {
+    background-color: gold;
+    border-color: red;
+}
+
+input[type="checkbox"]:checked::after {
+    left: calc(100% - 1.5em);
+}
