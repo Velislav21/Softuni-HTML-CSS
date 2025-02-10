@@ -1,13 +1,17 @@
 @media (max-width: 600px) {
-  
     nav ul {
         display: none;
     }
-    section.site-header > i, h1 {
-        bottom: -140px
+    section.site-header > i,
+    h1 {
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5em;
     }
     .site-header > i {
-        left: 45%
+        left: 45%;
     }
     .about {
         display: flex;
@@ -24,6 +28,8 @@
     }
     .gallery-item {
         display: block;
-        max-width: 210px;
+        max-width: 100%;
+        height: auto;
+        /* max-width: 210px; */
     }
 }
