@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica';
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.site {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border: 4px solid black;
+    border-radius: 1em;
+    background-color: #1881b6;
+    padding: 2em;
+}
+.site h3 {
+    color: #051514;
+    font-size: 1.4em;
+}
+.site p:first-of-type {
+    font-size: 2.1em;
+    margin: 1em 0em 0.5em 0em;
+    color: #fff;
+}
+.description {
+    color: #0e2a43;
+    font-size: 0.9em;
+    line-height: 2;
+    text-indent: 2.5em;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4em 0em 0em 0em;
+}
+.btn-container button {
+    border: none;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 0.2em 0.7em;
+    border-radius: 0.3em;
+}
+.btn-container button:first-of-type {
+    color: #fff;
+    background-color: #b53e6a;
+}
+.btn-container button:last-of-type {
+    color: black;
+    background-color: #1881b6;
+}
