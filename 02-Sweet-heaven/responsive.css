@@ -1,0 +1,61 @@
+@media (width <= 600px) {
+    .nav {
+        padding-top: 0.3em;
+    }
+    .nav-burger-menu {
+        display: block;
+        order: -1;
+        color: #fff;
+        font-size: 2em;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-user-btns {
+        width: 100%;
+        flex-direction: column;
+        align-items:stretch;
+    }
+    button {
+        width: 100%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-info-img {
+        display: none;
+    }
+    .content-info {
+        padding: 0;
+    }
+    .content-info-welcome {
+        padding: 2em 1em 1em 1em;
+        width: 100%;
+        text-align: center;
+    }
+    .content-info-welcome h2 {
+        font-size: 50px;
+    }
+    .content-info-welcome button {
+        width: 80%;
+    }
+    .content-services div {
+        width: 100%
+    }
+    .content-services {
+        flex-direction: column;
+    }
+    .gallery {
+        flex-direction: column;
+        padding: 0;
+    }
+    .gallery img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    footer > p {
+        font-size: 0.8em;
+    }
+}
