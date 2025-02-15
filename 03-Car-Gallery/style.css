@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 18px/1.5 "Source Sans Pro", "sans-serif";
+}
+.site-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mb-2 {
+    margin-bottom: 2em;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+/* Header */
+header {
+    background: linear-gradient(
+        90deg,
+        rgb(222, 80, 104) 0%,
+        rgba(242, 179, 156, 1) 52%
+    );
+}
+.site-section.nav-bar {
+    padding-top: 0.2em;
+}
+.site-section.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.site-section.nav-bar ul li a {
+    color: #fff;
+}
+li a.car-gallery-link {
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    padding: 0.5em 2.5em;
+}
+/* Heading Title */
+
+.heading {
+    text-align: center;
+    margin: 5em auto;
+    color: #fff;
+}
+.heading h3 {
+    font-size: 1.7em;
+    font-weight: 200;
+}
+.heading p {
+    font-weight: 200;
+}
+
+.site-section .see-all {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.3em;
+    padding: 0.5em 1.5em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+/* Cars Section */
+.cars-container {
+    display: flex;
+    justify-content: space-between;
+}
+.cars-container img {
+    display: block;
+    width: 580px;
+    height: 100%;
+}
+/* Cars Description */
+.cars {
+    background-color: #f6f8fb;
+}
+.description-container {
+    display: flex;
+    gap: 1.7em;
+}
+.description p {
+    max-width: 66ch;
+    line-height: 1.7;
+    color: #979797;
+}
+.description h3 {
+    margin-bottom: 1.2em;
+    color: #81766c;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.description-container .description button {
+    display: block;
+    margin: 2.5em auto;
+    text-align: center;
+    padding: 0.5em 1em;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background-color: transparent;
+    color: #a6acaf;
+}
+/* Section Search Bar  */
+section.register-section {
+    background: linear-gradient(
+        90deg,
+        rgba(7, 35, 49, 1) 0%,
+        rgba(121, 163, 149, 1) 50%,
+        rgba(14, 44, 54, 1) 99%
+    );
+    padding: 5em;
+}
+section.register-section .box {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 0.3em;
+    border-color: #93bcb5;
+    color: #fff;
+}
+section.register-section .box button {
+    border: none;
+    background-color: #fff;
+    color: #8591ab;
+    padding: 0.7em 1.5em;
+    border-radius: 0.3em;
+    margin-right: 0.5em;
+}
+
+/* Weird Cars Section */
+section.weird-cars .site-section {
+    text-align: center;
+}
+section.weird-cars .site-section h3 {
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5em;
+}
+section.weird-cars .site-section button {
+    border: none;
+    border: 1px solid #c3c8cd;
+    color: #c3c8cd;
+    border-radius: 0.3em;
+    background-color: transparent;
+    padding: 0.5em 1.2em;
+    margin-bottom: 0.5em;
+}
+.weird-cars-container img {
+    display: block;
+    width: 100%;
+}
+.weird-cars-container {
+    display: flex;
+    gap: 2em;
+}
+
+.cars-imgs {
+    background-color: #f6f8fb;
+    margin-bottom: 5em;
+}
+/* Footer */
+footer {
+    border-top: 1.5px solid #ccc;
+    padding-top: 4em;
+    background-color: #f6f8fb;
+}
+.site-section.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.site-section.explore h4 {
+    font-weight: 300;
+    color: #1f2020;
+    margin-bottom: 1em;
+}
+.site-section.explore p {
+    color: #f49588;
+    margin-bottom: 4em;
+}
+.copy-right {
+    color: #b5b8bd;
+    text-align: center;
+    padding: 5em;
+    font-size: 0.6em;
+}
