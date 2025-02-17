@@ -10,6 +10,10 @@
         align-items: center;
         margin-bottom: 0.5em;
     }
+    .checkbtn {
+        display: block;
+        order: 1;
+    }
     .site-header > i {
         left: 45%;
     }

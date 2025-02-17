@@ -19,7 +19,7 @@ body {
 header,
 section,
 footer {
-    max-width: 75em;
+    max-width: 55em;
     margin: 0 auto;
 }
 ul > li > a {
