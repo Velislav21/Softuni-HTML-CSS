@@ -1,0 +1,61 @@
+/* Reset */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+html {
+    font-size: clamp(12px, 12px + 0.2vw, 18px);
+    font-family: "PT Sans", "sans-serif";
+    box-sizing: border-box;
+}
+body,
+input,
+textarea,
+table {
+    font: inherit;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    padding: 2vw;
+    background-color: #d5d5d5;
+    min-height: 100dvh;
+}
+h4 {
+    margin: 1em 0;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+/* TODO: fix spacing */
+main > section.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    max-width: 920px;
+    /* border: 2px solid black; */
+}
+main > section.main-section .box {
+    display: flex;
+    padding: 1em 1.5em;
+    border-radius: 0.3rem;
+    flex-grow: 1;
+}
+
+main > section.main-section .box.category {
+    justify-content: center;
+    width: 8em;
+    background-color: #fff;
+    border-bottom: 4px solid black;
+}
+
+main > section.main-section .box.most-ordered {
+    width: 12em;
+    background-color: #DFF0FC;
+    border-bottom: 4px solid #7ebbe6;
+}
