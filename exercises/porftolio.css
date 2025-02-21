@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: clamp(12px, 12px + 0.2vw, 18px);
+    font-family: "PT Sans", "sans-serif";
+}
+body {
+    padding: 2vw;
+    background-color: #d5d5d5;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body,
+input,
+textarea,
+table {
+    font: inherit;
+}
+div.site {
+    padding: 2.5em;
+    border: 8px solid #a3a09d;
+    border-radius: 1rem;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+div.portfolio-container {
+    max-width: 390px;
+    height: auto;
+    padding: 1.5em;
+    border-radius: 0.3rem;
+    background-color: #111111;
+}
+div.site p:first-of-type {
+    color: #848484;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+p.introduction {
+    font-weight: bold;
+    font-size: 1.3em;
+    background: -webkit-linear-gradient(#ffffff, #626262);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p.text {
+    color: #747474;
+    margin: 1em 0;
+    max-width: 40ch;
+}
+img {
+    display: block;
+    width: 110px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 3px solid #fff700;
+}
+.buttons-container {
+    display: flex;
+    position: relative;
+    gap: 0.5em;
+}
+.icon {
+    color: black;
+    width: 35px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ffffff, #000000);
+}
+input[type="checkbox"].menu-btn {
+    position: absolute;
+    left: 18.5em;
+    bottom: 0.8em;
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    &:checked {
+        background-color: gray;
+    }
+}
+.menu-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #1b8f1b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    color: white;
+    font-size: 24px;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #1b8f1b;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-toggle:checked ~ .content {
+    transform: translateX(-100%);
+}
+
+.menu-toggle:checked ~ .menu {
+    transform: translateX(-100%);
+/* Toggle functionality */
+} 
