@@ -22,8 +22,13 @@ table {
 }
 body {
     padding: 2vw;
-    background-color: #d5d5d5;
+    background-color: #eee;
     min-height: 100dvh;
+}
+div.site {
+    display: flex;
+    /* justify-content: center; */
+    gap: 3em;
 }
 h4 {
     margin: 1em 0;
@@ -32,30 +37,101 @@ button {
     border: none;
     cursor: pointer;
 }
-/* TODO: fix spacing */
-main > section.main-section {
+div.container {
     display: flex;
     flex-wrap: wrap;
     gap: 0.7em;
     max-width: 920px;
-    /* border: 2px solid black; */
 }
-main > section.main-section .box {
+.button {
     display: flex;
     padding: 1em 1.5em;
     border-radius: 0.3rem;
     flex-grow: 1;
 }
 
-main > section.main-section .box.category {
+.button.default {
     justify-content: center;
     width: 8em;
     background-color: #fff;
     border-bottom: 4px solid black;
 }
 
-main > section.main-section .box.most-ordered {
+.button.most-ordered {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3em;
     width: 12em;
-    background-color: #DFF0FC;
+    background-color: #dff0fc;
     border-bottom: 4px solid #7ebbe6;
+}
+.box.most-ordered .code {
+    font-size: 0.8em;
+}
+/* Aside */
+section.notifications div {
+    background-color: #eee;
+    padding: 20em 0;
+}
+section.buttons {
+    padding: 0.5em;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+div.side-container {
+    border: 4px solid #f72222;
+    max-width: 450px;
+}
+section.buttons p {
+    text-shadow: 1px 1.5px black;
+}
+.button.decline {
+    background-color: #e74c3d;
+    border-bottom: 4px solid #ad4c43;
+    color: #fff;
+}
+.button.discounts {
+    background-color: #2ecc71;
+    border-bottom: 4px solid #389c5e;
+    color: #fff;
+}
+
+section.numpad div.numpad-display {
+    padding: 2em 0;
+    background-color: #fff;
+    border-bottom: 4px solid black;
+}
+
+div.numpad-buttons div button {
+    background-color: #55acee;
+    border-bottom: 5px solid #3e85bb;
+    justify-content: center;
+    padding: 1em 2em;
+    color: #fff;
+}
+div.container.numpad-buttons {
+    padding: 0.5em;
+    flex-wrap: nowrap;
+}
+div.container.numpad-buttons > div.container {
+}
+div.container.numpad-buttons aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    flex-grow: 1;
+}
+div.container.numpad-buttons aside button {
+    justify-content: center;
+    border: 1px solid black;
+}
+div.container.numpad-buttons aside button:last-of-type {
+    padding: 2.5em 0.3em;
+}
+.button.decline,
+.button.discounts,
+.button.pay,
+.button.save-bill {
+    width: 9em;
+    justify-content: center;
 }
